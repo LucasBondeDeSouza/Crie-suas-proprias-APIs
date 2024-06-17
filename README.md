@@ -17,3 +17,9 @@ A próxima regra é que ele provavelmente deve ter um formato de dados padrão c
 
 ## 3 - Client-Server (Cliente-Servidor)
 A próxima regra é que clientes e servidores em APIs RESTful são completamente separados. Eles não estão no mesmo sistema ou no mesmo arquivo e podem enviar mensagens uns aos outros por meio de uma rede. Para fazer solicitações e também para receber respostas.
+
+## 4 - Stateless
+Cada requisição do cliente para o servidor deve conter todas as informações necessárias para entender e processar o pedido. O servidor não deve armazenar o estado da sessão entre as requisições.
+
+## 5 - Resource-Based (Baseado em recursos)
+A API RESTful é baseada em recursos, portanto, é uma API centrada em recursos e usa um identificador exclusivo de recursos, também conhecido como localizador de recursos, ou seja, um URI ou URL, para localizar recursos específicos.
